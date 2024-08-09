@@ -1,0 +1,54 @@
+services:
+  wordpress:
+    container_name: wordpress
+    image: wordpress
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: exampleuser
+      WORDPRESS_DB_PASSWORD: examplepass
+      WORDPRESS_DB_NAME: exampledb
+    volumes:
+      - ./wp/plugins:/var/www/html/wp-content/plugins
+      - ./wp/mu-plugins:/var/www/html/wp-content/mu-plugins
+      - ./wp/themes:/var/www/html/wp-content/themes
+      - ./wp/upgrade:/var/www/html/wp-content/upgrade
+      - ./wp/uploads:/var/www/html/wp-content/uploads
+      - wordpress:/var/www/html
+
+  wpcli:
+    container_name: wpcli
+    depends_on:
+      - wordpress
+    image: wordpress:cli
+    user: 1000:1000
+    command: tail -f /dev/null
+    volumes:
+      - ./wp/plugins:/var/www/html/wp-content/plugins
+      - ./wp/mu-plugins:/var/www/html/wp-content/mu-plugins
+      - ./wp/themes:/var/www/html/wp-content/themes
+      - ./wp/upgrade:/var/www/html/wp-content/upgrade
+      - wordpress:/var/www/html
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: exampleuser
+      WORDPRESS_DB_PASSWORD: examplepass
+      WORDPRESS_DB_NAME: exampledb
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: exampledb
+      MYSQL_USER: exampleuser
+      MYSQL_PASSWORD: examplepass
+      MYSQL_RANDOM_ROOT_PASSWORD: "1"
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  db:
+  wordpress:
+  uploads:
