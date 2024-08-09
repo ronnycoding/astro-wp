@@ -1,0 +1,102 @@
+query GetNodeByURI($uri: String!) {
+  nodeByUri(uri: $uri) {
+    __typename
+    isContentNode
+    isTermNode
+    ... on Post {
+      id
+      title
+      date
+      uri
+      excerpt
+      slug
+      categories {
+        nodes {
+          name
+          uri
+        }
+      }
+      featuredImage {
+        node {
+          srcSet
+          sourceUrl
+          altText
+        }
+      }
+      seo {
+        ...SEOMetadata
+      }
+      editorBlocks {
+        ...WPBlocks
+      }
+    }
+    ... on Page {
+      id
+      title
+      uri
+      slug
+      date
+      featuredImage {
+        node {
+          srcSet
+          sourceUrl
+          altText
+          mediaDetails {
+            height
+            width
+          }
+        }
+      }
+      seo {
+        ...SEOMetadata
+      }
+      editorBlocks {
+        ...WPBlocks
+      }
+    }
+    ... on Category {
+      id
+      name
+      posts {
+        nodes {
+          date
+          title
+          excerpt
+          uri
+          slug
+          categories {
+            nodes {
+              name
+              uri
+            }
+          }
+          featuredImage {
+            node {
+              srcSet
+              sourceUrl
+              altText
+            }
+          }
+        }
+      }
+    }
+  }
+  menus(where: { location: MENU_1 }) {
+    nodes {
+      name
+      menuItems {
+        nodes {
+          uri
+          url
+          order
+          label
+        }
+      }
+    }
+  }
+  generalSettings {
+    title
+    url
+    description
+  }
+}

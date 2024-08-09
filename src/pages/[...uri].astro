@@ -1,6 +1,17 @@
 ---
 import { getNodeByUri } from "../lib/api";
-const nodeData = await getNodeByUri("home");
+console.log(Astro.url.pathname)
+const nodeData = await getNodeByUri(Astro.url.pathname);
+
+if (!nodeData) {
+  // return {
+  //   status: 404,
+  //   // headers: {
+  //   //   "Cache-Control": "max-age=600, must-revalidate",
+  //   // },
+  // };
+  return new Response("Not found", { status: 404 });
+}
 // Astro.response.headers.set("Cache-Control", "max-age=600, must-revalidate");
 ---
 

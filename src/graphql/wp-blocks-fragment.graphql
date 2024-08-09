@@ -1,0 +1,37 @@
+fragment WPBlocks on EditorBlock {
+  __typename
+  name
+  clientId
+  ... on CoreParagraph {
+    attributes {
+      content
+    }
+  }
+  ... on CoreHeading {
+    attributes {
+      level
+      content
+    }
+  }
+  ... on CoreList {
+    clientId
+    attributes {
+      ordered
+    }
+    innerBlocks {
+      ... on CoreListItem {
+        attributes {
+          content
+        }
+      }
+    }
+  }
+  ... on CoreImage {
+    mediaDetails {
+      file
+      meta {
+        caption
+      }
+    }
+  }
+}

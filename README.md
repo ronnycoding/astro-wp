@@ -45,23 +45,3 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## WordPress commands
-
-### Create your WP Theme
-
-```bash
-docker exec wpcli wp scaffold _s sample-theme --theme_name="Sample Theme" --author="John Doe"
-```
-
-### Install and activate required and recommended plugins
-
-```bash
-docker exec wpcli wp plugin install wp-graphql --activate
-docker exec wpcli wp plugin install custom-post-type-ui --activate
-docker exec wpcli wp plugin install headless-mode --activate
-docker exec wpcli wp plugin install advanced-custom-fields --activate
-docker exec wpcli wp plugin install wordpress-seo --activate
-docker exec wpcli wp plugin install add-wpgraphql-seo --activate
-docker exec wpcli wp plugin install https://github.com/pristas-peter/wp-graphql-gutenberg/archive/refs heads/develop.zip --activate
-```
