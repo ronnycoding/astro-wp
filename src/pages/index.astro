@@ -5,8 +5,9 @@ import { getNodeByUri } from "../lib/api";
 const nodeData = await getNodeByUri("home");
 // Astro.response.headers.set("Cache-Control", "max-age=600, must-revalidate");
 ---
-<PageLayout>
-	<pre>
+<PageLayout menuItems={nodeData?.menus?.nodes?.[0]?.menuItems?.nodes || []}>
+	<h1>happy</h1>
+	<!-- <pre>
 		{JSON.stringify(nodeData, null, 2)}
-	</pre>
+	</pre> -->
 </PageLayout>

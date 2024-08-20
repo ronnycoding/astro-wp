@@ -1,7 +1,16 @@
 ---
-import HTML5 from '@/layouts/html5.astro'
+import type { MainMenuProps } from '@/components/main-menu.tsx';
+import { MainMenu } from '@/components/main-menu.tsx';
+import HTML5 from '@/layouts/html5.astro';
+interface Props {
+  menuItems: MainMenuProps['nodes'];
+}
+const {
+  menuItems
+} = Astro.props
 ---
 <HTML5>
+  <MainMenu client:load nodes={menuItems} />
   <div class="container mx-auto">
     <slot />
   </div>

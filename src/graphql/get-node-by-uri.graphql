@@ -90,6 +90,8 @@ query GetNodeByURI($uri: String!) {
           url
           order
           label
+          id
+          parentId
         }
       }
     }

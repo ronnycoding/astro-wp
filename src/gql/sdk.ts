@@ -24574,7 +24574,7 @@ export type GetNodeByUriQuery = { __typename?: 'RootQuery', nodeByUri?: { __type
     ) | (
       { __typename?: 'YoastSeoBreadcrumbs' }
       & WpBlocks_YoastSeoBreadcrumbs_Fragment
-    ) | null> | null } | { __typename: 'PostFormat', isContentNode: boolean, isTermNode: boolean } | { __typename: 'ReusableBlock', isContentNode: boolean, isTermNode: boolean } | { __typename: 'Tag', isContentNode: boolean, isTermNode: boolean } | { __typename: 'User', isContentNode: boolean, isTermNode: boolean } | null, menus?: { __typename?: 'RootQueryToMenuConnection', nodes: Array<{ __typename?: 'Menu', name?: string | null, menuItems?: { __typename?: 'MenuToMenuItemConnection', nodes: Array<{ __typename?: 'MenuItem', uri?: string | null, url?: string | null, order?: number | null, label?: string | null }> } | null }> } | null, generalSettings?: { __typename?: 'GeneralSettings', title?: string | null, url?: string | null, description?: string | null } | null };
+    ) | null> | null } | { __typename: 'PostFormat', isContentNode: boolean, isTermNode: boolean } | { __typename: 'ReusableBlock', isContentNode: boolean, isTermNode: boolean } | { __typename: 'Tag', isContentNode: boolean, isTermNode: boolean } | { __typename: 'User', isContentNode: boolean, isTermNode: boolean } | null, menus?: { __typename?: 'RootQueryToMenuConnection', nodes: Array<{ __typename?: 'Menu', name?: string | null, menuItems?: { __typename?: 'MenuToMenuItemConnection', nodes: Array<{ __typename?: 'MenuItem', uri?: string | null, url?: string | null, order?: number | null, label?: string | null, id: string, parentId?: string | null }> } | null }> } | null, generalSettings?: { __typename?: 'GeneralSettings', title?: string | null, url?: string | null, description?: string | null } | null };
 
 export type SeoMetadataFragment = { __typename?: 'PostTypeSEO', canonical?: string | null, cornerstone?: boolean | null, focuskw?: string | null, metaDesc?: string | null, metaKeywords?: string | null, metaRobotsNofollow?: string | null, metaRobotsNoindex?: string | null, opengraphAuthor?: string | null, opengraphDescription?: string | null, opengraphModifiedTime?: string | null, opengraphPublishedTime?: string | null, opengraphPublisher?: string | null, opengraphSiteName?: string | null, opengraphTitle?: string | null, opengraphType?: string | null, opengraphUrl?: string | null, readingTime?: number | null, title?: string | null, twitterDescription?: string | null, twitterTitle?: string | null };
 
@@ -24930,6 +24930,8 @@ export const GetNodeByUriDocument = gql`
           url
           order
           label
+          id
+          parentId
         }
       }
     }
