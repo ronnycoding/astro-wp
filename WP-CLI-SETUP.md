@@ -55,9 +55,6 @@ docker exec wpcli wp plugin install https://github.com/wpengine/wp-graphql-conte
 
 # (Optional) Advanced Custom Fields
 docker exec wpcli wp plugin install advanced-custom-fields --activate
-
-# (Optional) Custom Post Type UI
-docker exec wpcli wp plugin install custom-post-type-ui --activate
 ```
 
 Note: Always ensure you're using the latest version of plugins, especially when installing from external sources.
