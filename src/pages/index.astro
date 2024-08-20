@@ -1,21 +1,12 @@
 ---
+import PageLayout from '@/layouts/page.astro';
 import '@/styles/globals.css';
 import { getNodeByUri } from "../lib/api";
 const nodeData = await getNodeByUri("home");
 // Astro.response.headers.set("Cache-Control", "max-age=600, must-revalidate");
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<pre>
-			{JSON.stringify(nodeData, null, 2)}
-		</pre>
-	</body>
-</html>
+<PageLayout>
+	<pre>
+		{JSON.stringify(nodeData, null, 2)}
+	</pre>
+</PageLayout>
