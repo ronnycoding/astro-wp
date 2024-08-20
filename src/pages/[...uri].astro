@@ -1,5 +1,7 @@
 ---
-import { getNodeByUri } from "../lib/api";
+import { getNodeByUri } from "@/lib/api";
+import '@/styles/globals.css';
+
 console.log(Astro.url.pathname)
 const nodeData = await getNodeByUri(Astro.url.pathname);
 
