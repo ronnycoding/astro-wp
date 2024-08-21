@@ -1,13 +1,16 @@
 ---
+import { RenderWPBlocks } from '@/components/core-components';
 import PageLayout from '@/layouts/page.astro';
+import { getNodeByUri } from "@/lib/api";
+import { isGraphType } from '@/lib/utils';
 import '@/styles/globals.css';
-import { getNodeByUri } from "../lib/api";
+import { WPBlocks } from '@/types';
 const nodeData = await getNodeByUri("home");
 // Astro.response.headers.set("Cache-Control", "max-age=600, must-revalidate");
+if (!nodeData?.nodeByUri) {
+	return new Response("Not found", { status: 404 });
+}
 ---
 <PageLayout menuItems={nodeData?.menus?.nodes?.[0]?.menuItems?.nodes || []}>
-	<h1>happy</h1>
-	<!-- <pre>
-		{JSON.stringify(nodeData, null, 2)}
-	</pre> -->
+	{nodeData?.nodeByUri && isGraphType(nodeData?.nodeByUri, 'Page') ? <RenderWPBlocks blocks={(nodeData?.nodeByUri.editorBlocks as WPBlocks[]) || []} /> : <Fragment />}
 </PageLayout>

@@ -59,3 +59,17 @@ export function getChildrenUnderParents<T extends ItemWithOptionalParent>(
 
   return buildResult(rootItems);
 }
+
+// This function is used to check if an object is a GraphQL object with a specific __typename
+export function isGraphType<TypeName extends string>(
+  obj: unknown,
+  typeName: TypeName
+): obj is { __typename: TypeName } {
+  return (
+    typeof obj === "object" &&
+    obj !== null &&
+    "__typename" in obj &&
+    typeof (obj as { __typename: unknown }).__typename === "string" &&
+    (obj as { __typename: string }).__typename === typeName
+  );
+}

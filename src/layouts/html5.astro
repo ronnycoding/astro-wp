@@ -1,14 +1,16 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="antialiased break-words">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content={Astro.generator} />
   <title>Document</title>
+  <ViewTransitions />
 </head>
-<body>
+<body class="bg-main text-main">
   <slot />
 </body>
 </html>

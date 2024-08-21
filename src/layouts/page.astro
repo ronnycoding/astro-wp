@@ -10,8 +10,10 @@ const {
 } = Astro.props
 ---
 <HTML5>
-  <MainMenu client:load nodes={menuItems} />
   <div class="container mx-auto">
+    <div class="flex align-middle">
+      <MainMenu client:load nodes={menuItems} />
+    </div>
     <slot />
   </div>
 </HTML5>

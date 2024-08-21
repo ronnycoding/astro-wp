@@ -24578,199 +24578,199 @@ export type GetNodeByUriQuery = { __typename?: 'RootQuery', nodeByUri?: { __type
 
 export type SeoMetadataFragment = { __typename?: 'PostTypeSEO', canonical?: string | null, cornerstone?: boolean | null, focuskw?: string | null, metaDesc?: string | null, metaKeywords?: string | null, metaRobotsNofollow?: string | null, metaRobotsNoindex?: string | null, opengraphAuthor?: string | null, opengraphDescription?: string | null, opengraphModifiedTime?: string | null, opengraphPublishedTime?: string | null, opengraphPublisher?: string | null, opengraphSiteName?: string | null, opengraphTitle?: string | null, opengraphType?: string | null, opengraphUrl?: string | null, readingTime?: number | null, title?: string | null, twitterDescription?: string | null, twitterTitle?: string | null };
 
-type WpBlocks_CoreArchives_Fragment = { __typename: 'CoreArchives', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreArchives_Fragment = { __typename?: 'CoreArchives' };
 
-type WpBlocks_CoreAudio_Fragment = { __typename: 'CoreAudio', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreAudio_Fragment = { __typename?: 'CoreAudio' };
 
-type WpBlocks_CoreAvatar_Fragment = { __typename: 'CoreAvatar', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreAvatar_Fragment = { __typename?: 'CoreAvatar' };
 
-type WpBlocks_CoreBlock_Fragment = { __typename: 'CoreBlock', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreBlock_Fragment = { __typename?: 'CoreBlock' };
 
-type WpBlocks_CoreButton_Fragment = { __typename: 'CoreButton', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreButton_Fragment = { __typename?: 'CoreButton' };
 
-type WpBlocks_CoreButtons_Fragment = { __typename: 'CoreButtons', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreButtons_Fragment = { __typename?: 'CoreButtons' };
 
-type WpBlocks_CoreCalendar_Fragment = { __typename: 'CoreCalendar', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCalendar_Fragment = { __typename?: 'CoreCalendar' };
 
-type WpBlocks_CoreCategories_Fragment = { __typename: 'CoreCategories', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCategories_Fragment = { __typename?: 'CoreCategories' };
 
-type WpBlocks_CoreCode_Fragment = { __typename: 'CoreCode', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCode_Fragment = { __typename: 'CoreCode', clientId?: string | null, attributes?: { __typename?: 'CoreCodeAttributes', content?: string | null } | null };
 
-type WpBlocks_CoreColumn_Fragment = { __typename: 'CoreColumn', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreColumn_Fragment = { __typename?: 'CoreColumn' };
 
-type WpBlocks_CoreColumns_Fragment = { __typename: 'CoreColumns', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreColumns_Fragment = { __typename?: 'CoreColumns' };
 
-type WpBlocks_CoreCommentAuthorName_Fragment = { __typename: 'CoreCommentAuthorName', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentAuthorName_Fragment = { __typename?: 'CoreCommentAuthorName' };
 
-type WpBlocks_CoreCommentContent_Fragment = { __typename: 'CoreCommentContent', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentContent_Fragment = { __typename?: 'CoreCommentContent' };
 
-type WpBlocks_CoreCommentDate_Fragment = { __typename: 'CoreCommentDate', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentDate_Fragment = { __typename?: 'CoreCommentDate' };
 
-type WpBlocks_CoreCommentEditLink_Fragment = { __typename: 'CoreCommentEditLink', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentEditLink_Fragment = { __typename?: 'CoreCommentEditLink' };
 
-type WpBlocks_CoreCommentReplyLink_Fragment = { __typename: 'CoreCommentReplyLink', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentReplyLink_Fragment = { __typename?: 'CoreCommentReplyLink' };
 
-type WpBlocks_CoreCommentTemplate_Fragment = { __typename: 'CoreCommentTemplate', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentTemplate_Fragment = { __typename?: 'CoreCommentTemplate' };
 
-type WpBlocks_CoreComments_Fragment = { __typename: 'CoreComments', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreComments_Fragment = { __typename?: 'CoreComments' };
 
-type WpBlocks_CoreCommentsPagination_Fragment = { __typename: 'CoreCommentsPagination', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentsPagination_Fragment = { __typename?: 'CoreCommentsPagination' };
 
-type WpBlocks_CoreCommentsPaginationNext_Fragment = { __typename: 'CoreCommentsPaginationNext', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentsPaginationNext_Fragment = { __typename?: 'CoreCommentsPaginationNext' };
 
-type WpBlocks_CoreCommentsPaginationNumbers_Fragment = { __typename: 'CoreCommentsPaginationNumbers', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentsPaginationNumbers_Fragment = { __typename?: 'CoreCommentsPaginationNumbers' };
 
-type WpBlocks_CoreCommentsPaginationPrevious_Fragment = { __typename: 'CoreCommentsPaginationPrevious', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentsPaginationPrevious_Fragment = { __typename?: 'CoreCommentsPaginationPrevious' };
 
-type WpBlocks_CoreCommentsTitle_Fragment = { __typename: 'CoreCommentsTitle', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCommentsTitle_Fragment = { __typename?: 'CoreCommentsTitle' };
 
-type WpBlocks_CoreCover_Fragment = { __typename: 'CoreCover', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreCover_Fragment = { __typename?: 'CoreCover' };
 
-type WpBlocks_CoreDetails_Fragment = { __typename: 'CoreDetails', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreDetails_Fragment = { __typename?: 'CoreDetails' };
 
-type WpBlocks_CoreEmbed_Fragment = { __typename: 'CoreEmbed', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreEmbed_Fragment = { __typename?: 'CoreEmbed' };
 
-type WpBlocks_CoreFile_Fragment = { __typename: 'CoreFile', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreFile_Fragment = { __typename?: 'CoreFile' };
 
-type WpBlocks_CoreFootnotes_Fragment = { __typename: 'CoreFootnotes', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreFootnotes_Fragment = { __typename?: 'CoreFootnotes' };
 
-type WpBlocks_CoreFreeform_Fragment = { __typename: 'CoreFreeform', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreFreeform_Fragment = { __typename?: 'CoreFreeform' };
 
-type WpBlocks_CoreGallery_Fragment = { __typename: 'CoreGallery', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreGallery_Fragment = { __typename?: 'CoreGallery' };
 
-type WpBlocks_CoreGroup_Fragment = { __typename: 'CoreGroup', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreGroup_Fragment = { __typename?: 'CoreGroup' };
 
-type WpBlocks_CoreHeading_Fragment = { __typename: 'CoreHeading', name?: string | null, clientId?: string | null, attributes?: { __typename?: 'CoreHeadingAttributes', level: number, content?: string | null } | null };
+type WpBlocks_CoreHeading_Fragment = { __typename: 'CoreHeading', clientId?: string | null, attributes?: { __typename?: 'CoreHeadingAttributes', level: number, content?: string | null } | null };
 
-type WpBlocks_CoreHomeLink_Fragment = { __typename: 'CoreHomeLink', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreHomeLink_Fragment = { __typename?: 'CoreHomeLink' };
 
-type WpBlocks_CoreHtml_Fragment = { __typename: 'CoreHtml', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreHtml_Fragment = { __typename?: 'CoreHtml' };
 
-type WpBlocks_CoreImage_Fragment = { __typename: 'CoreImage', name?: string | null, clientId?: string | null, mediaDetails?: { __typename?: 'MediaDetails', file?: string | null, meta?: { __typename?: 'MediaItemMeta', caption?: string | null } | null } | null };
+type WpBlocks_CoreImage_Fragment = { __typename: 'CoreImage', clientId?: string | null, mediaDetails?: { __typename?: 'MediaDetails', file?: string | null, meta?: { __typename?: 'MediaItemMeta', caption?: string | null } | null } | null };
 
-type WpBlocks_CoreLatestComments_Fragment = { __typename: 'CoreLatestComments', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreLatestComments_Fragment = { __typename?: 'CoreLatestComments' };
 
-type WpBlocks_CoreLatestPosts_Fragment = { __typename: 'CoreLatestPosts', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreLatestPosts_Fragment = { __typename?: 'CoreLatestPosts' };
 
-type WpBlocks_CoreLegacyWidget_Fragment = { __typename: 'CoreLegacyWidget', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreLegacyWidget_Fragment = { __typename?: 'CoreLegacyWidget' };
 
-type WpBlocks_CoreList_Fragment = { __typename: 'CoreList', clientId?: string | null, name?: string | null, attributes?: { __typename?: 'CoreListAttributes', ordered: boolean } | null, innerBlocks?: Array<{ __typename?: 'CoreArchives' } | { __typename?: 'CoreAudio' } | { __typename?: 'CoreAvatar' } | { __typename?: 'CoreBlock' } | { __typename?: 'CoreButton' } | { __typename?: 'CoreButtons' } | { __typename?: 'CoreCalendar' } | { __typename?: 'CoreCategories' } | { __typename?: 'CoreCode' } | { __typename?: 'CoreColumn' } | { __typename?: 'CoreColumns' } | { __typename?: 'CoreCommentAuthorName' } | { __typename?: 'CoreCommentContent' } | { __typename?: 'CoreCommentDate' } | { __typename?: 'CoreCommentEditLink' } | { __typename?: 'CoreCommentReplyLink' } | { __typename?: 'CoreCommentTemplate' } | { __typename?: 'CoreComments' } | { __typename?: 'CoreCommentsPagination' } | { __typename?: 'CoreCommentsPaginationNext' } | { __typename?: 'CoreCommentsPaginationNumbers' } | { __typename?: 'CoreCommentsPaginationPrevious' } | { __typename?: 'CoreCommentsTitle' } | { __typename?: 'CoreCover' } | { __typename?: 'CoreDetails' } | { __typename?: 'CoreEmbed' } | { __typename?: 'CoreFile' } | { __typename?: 'CoreFootnotes' } | { __typename?: 'CoreFreeform' } | { __typename?: 'CoreGallery' } | { __typename?: 'CoreGroup' } | { __typename?: 'CoreHeading' } | { __typename?: 'CoreHomeLink' } | { __typename?: 'CoreHtml' } | { __typename?: 'CoreImage' } | { __typename?: 'CoreLatestComments' } | { __typename?: 'CoreLatestPosts' } | { __typename?: 'CoreLegacyWidget' } | { __typename?: 'CoreList' } | { __typename?: 'CoreListItem', attributes?: { __typename?: 'CoreListItemAttributes', content?: string | null } | null } | { __typename?: 'CoreLoginout' } | { __typename?: 'CoreMediaText' } | { __typename?: 'CoreMissing' } | { __typename?: 'CoreMore' } | { __typename?: 'CoreNavigation' } | { __typename?: 'CoreNavigationLink' } | { __typename?: 'CoreNavigationSubmenu' } | { __typename?: 'CoreNextpage' } | { __typename?: 'CorePageList' } | { __typename?: 'CorePageListItem' } | { __typename?: 'CoreParagraph' } | { __typename?: 'CorePattern' } | { __typename?: 'CorePostAuthor' } | { __typename?: 'CorePostAuthorBiography' } | { __typename?: 'CorePostAuthorName' } | { __typename?: 'CorePostComments' } | { __typename?: 'CorePostCommentsForm' } | { __typename?: 'CorePostContent' } | { __typename?: 'CorePostDate' } | { __typename?: 'CorePostExcerpt' } | { __typename?: 'CorePostFeaturedImage' } | { __typename?: 'CorePostNavigationLink' } | { __typename?: 'CorePostTemplate' } | { __typename?: 'CorePostTerms' } | { __typename?: 'CorePostTitle' } | { __typename?: 'CorePreformatted' } | { __typename?: 'CorePullquote' } | { __typename?: 'CoreQuery' } | { __typename?: 'CoreQueryNoResults' } | { __typename?: 'CoreQueryPagination' } | { __typename?: 'CoreQueryPaginationNext' } | { __typename?: 'CoreQueryPaginationNumbers' } | { __typename?: 'CoreQueryPaginationPrevious' } | { __typename?: 'CoreQueryTitle' } | { __typename?: 'CoreQuote' } | { __typename?: 'CoreReadMore' } | { __typename?: 'CoreRss' } | { __typename?: 'CoreSearch' } | { __typename?: 'CoreSeparator' } | { __typename?: 'CoreShortcode' } | { __typename?: 'CoreSiteLogo' } | { __typename?: 'CoreSiteTagline' } | { __typename?: 'CoreSiteTitle' } | { __typename?: 'CoreSocialLink' } | { __typename?: 'CoreSocialLinks' } | { __typename?: 'CoreSpacer' } | { __typename?: 'CoreTable' } | { __typename?: 'CoreTagCloud' } | { __typename?: 'CoreTemplatePart' } | { __typename?: 'CoreTermDescription' } | { __typename?: 'CoreTextColumns' } | { __typename?: 'CoreVerse' } | { __typename?: 'CoreVideo' } | { __typename?: 'CoreWidgetGroup' } | { __typename?: 'YoastFaqBlock' } | { __typename?: 'YoastHowToBlock' } | { __typename?: 'YoastSeoBreadcrumbs' } | null> | null };
+type WpBlocks_CoreList_Fragment = { __typename: 'CoreList', clientId?: string | null, attributes?: { __typename?: 'CoreListAttributes', ordered: boolean } | null, innerBlocks?: Array<{ __typename?: 'CoreArchives' } | { __typename?: 'CoreAudio' } | { __typename?: 'CoreAvatar' } | { __typename?: 'CoreBlock' } | { __typename?: 'CoreButton' } | { __typename?: 'CoreButtons' } | { __typename?: 'CoreCalendar' } | { __typename?: 'CoreCategories' } | { __typename?: 'CoreCode' } | { __typename?: 'CoreColumn' } | { __typename?: 'CoreColumns' } | { __typename?: 'CoreCommentAuthorName' } | { __typename?: 'CoreCommentContent' } | { __typename?: 'CoreCommentDate' } | { __typename?: 'CoreCommentEditLink' } | { __typename?: 'CoreCommentReplyLink' } | { __typename?: 'CoreCommentTemplate' } | { __typename?: 'CoreComments' } | { __typename?: 'CoreCommentsPagination' } | { __typename?: 'CoreCommentsPaginationNext' } | { __typename?: 'CoreCommentsPaginationNumbers' } | { __typename?: 'CoreCommentsPaginationPrevious' } | { __typename?: 'CoreCommentsTitle' } | { __typename?: 'CoreCover' } | { __typename?: 'CoreDetails' } | { __typename?: 'CoreEmbed' } | { __typename?: 'CoreFile' } | { __typename?: 'CoreFootnotes' } | { __typename?: 'CoreFreeform' } | { __typename?: 'CoreGallery' } | { __typename?: 'CoreGroup' } | { __typename?: 'CoreHeading' } | { __typename?: 'CoreHomeLink' } | { __typename?: 'CoreHtml' } | { __typename?: 'CoreImage' } | { __typename?: 'CoreLatestComments' } | { __typename?: 'CoreLatestPosts' } | { __typename?: 'CoreLegacyWidget' } | { __typename?: 'CoreList' } | { __typename: 'CoreListItem', clientId?: string | null, attributes?: { __typename?: 'CoreListItemAttributes', content?: string | null } | null } | { __typename?: 'CoreLoginout' } | { __typename?: 'CoreMediaText' } | { __typename?: 'CoreMissing' } | { __typename?: 'CoreMore' } | { __typename?: 'CoreNavigation' } | { __typename?: 'CoreNavigationLink' } | { __typename?: 'CoreNavigationSubmenu' } | { __typename?: 'CoreNextpage' } | { __typename?: 'CorePageList' } | { __typename?: 'CorePageListItem' } | { __typename?: 'CoreParagraph' } | { __typename?: 'CorePattern' } | { __typename?: 'CorePostAuthor' } | { __typename?: 'CorePostAuthorBiography' } | { __typename?: 'CorePostAuthorName' } | { __typename?: 'CorePostComments' } | { __typename?: 'CorePostCommentsForm' } | { __typename?: 'CorePostContent' } | { __typename?: 'CorePostDate' } | { __typename?: 'CorePostExcerpt' } | { __typename?: 'CorePostFeaturedImage' } | { __typename?: 'CorePostNavigationLink' } | { __typename?: 'CorePostTemplate' } | { __typename?: 'CorePostTerms' } | { __typename?: 'CorePostTitle' } | { __typename?: 'CorePreformatted' } | { __typename?: 'CorePullquote' } | { __typename?: 'CoreQuery' } | { __typename?: 'CoreQueryNoResults' } | { __typename?: 'CoreQueryPagination' } | { __typename?: 'CoreQueryPaginationNext' } | { __typename?: 'CoreQueryPaginationNumbers' } | { __typename?: 'CoreQueryPaginationPrevious' } | { __typename?: 'CoreQueryTitle' } | { __typename?: 'CoreQuote' } | { __typename?: 'CoreReadMore' } | { __typename?: 'CoreRss' } | { __typename?: 'CoreSearch' } | { __typename?: 'CoreSeparator' } | { __typename?: 'CoreShortcode' } | { __typename?: 'CoreSiteLogo' } | { __typename?: 'CoreSiteTagline' } | { __typename?: 'CoreSiteTitle' } | { __typename?: 'CoreSocialLink' } | { __typename?: 'CoreSocialLinks' } | { __typename?: 'CoreSpacer' } | { __typename?: 'CoreTable' } | { __typename?: 'CoreTagCloud' } | { __typename?: 'CoreTemplatePart' } | { __typename?: 'CoreTermDescription' } | { __typename?: 'CoreTextColumns' } | { __typename?: 'CoreVerse' } | { __typename?: 'CoreVideo' } | { __typename?: 'CoreWidgetGroup' } | { __typename?: 'YoastFaqBlock' } | { __typename?: 'YoastHowToBlock' } | { __typename?: 'YoastSeoBreadcrumbs' } | null> | null };
 
-type WpBlocks_CoreListItem_Fragment = { __typename: 'CoreListItem', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreListItem_Fragment = { __typename?: 'CoreListItem' };
 
-type WpBlocks_CoreLoginout_Fragment = { __typename: 'CoreLoginout', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreLoginout_Fragment = { __typename?: 'CoreLoginout' };
 
-type WpBlocks_CoreMediaText_Fragment = { __typename: 'CoreMediaText', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreMediaText_Fragment = { __typename?: 'CoreMediaText' };
 
-type WpBlocks_CoreMissing_Fragment = { __typename: 'CoreMissing', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreMissing_Fragment = { __typename?: 'CoreMissing' };
 
-type WpBlocks_CoreMore_Fragment = { __typename: 'CoreMore', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreMore_Fragment = { __typename?: 'CoreMore' };
 
-type WpBlocks_CoreNavigation_Fragment = { __typename: 'CoreNavigation', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreNavigation_Fragment = { __typename?: 'CoreNavigation' };
 
-type WpBlocks_CoreNavigationLink_Fragment = { __typename: 'CoreNavigationLink', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreNavigationLink_Fragment = { __typename?: 'CoreNavigationLink' };
 
-type WpBlocks_CoreNavigationSubmenu_Fragment = { __typename: 'CoreNavigationSubmenu', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreNavigationSubmenu_Fragment = { __typename?: 'CoreNavigationSubmenu' };
 
-type WpBlocks_CoreNextpage_Fragment = { __typename: 'CoreNextpage', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreNextpage_Fragment = { __typename?: 'CoreNextpage' };
 
-type WpBlocks_CorePageList_Fragment = { __typename: 'CorePageList', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePageList_Fragment = { __typename?: 'CorePageList' };
 
-type WpBlocks_CorePageListItem_Fragment = { __typename: 'CorePageListItem', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePageListItem_Fragment = { __typename?: 'CorePageListItem' };
 
-type WpBlocks_CoreParagraph_Fragment = { __typename: 'CoreParagraph', name?: string | null, clientId?: string | null, attributes?: { __typename?: 'CoreParagraphAttributes', content?: string | null } | null };
+type WpBlocks_CoreParagraph_Fragment = { __typename: 'CoreParagraph', clientId?: string | null, attributes?: { __typename?: 'CoreParagraphAttributes', content?: string | null } | null };
 
-type WpBlocks_CorePattern_Fragment = { __typename: 'CorePattern', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePattern_Fragment = { __typename?: 'CorePattern' };
 
-type WpBlocks_CorePostAuthor_Fragment = { __typename: 'CorePostAuthor', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostAuthor_Fragment = { __typename?: 'CorePostAuthor' };
 
-type WpBlocks_CorePostAuthorBiography_Fragment = { __typename: 'CorePostAuthorBiography', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostAuthorBiography_Fragment = { __typename?: 'CorePostAuthorBiography' };
 
-type WpBlocks_CorePostAuthorName_Fragment = { __typename: 'CorePostAuthorName', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostAuthorName_Fragment = { __typename?: 'CorePostAuthorName' };
 
-type WpBlocks_CorePostComments_Fragment = { __typename: 'CorePostComments', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostComments_Fragment = { __typename?: 'CorePostComments' };
 
-type WpBlocks_CorePostCommentsForm_Fragment = { __typename: 'CorePostCommentsForm', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostCommentsForm_Fragment = { __typename?: 'CorePostCommentsForm' };
 
-type WpBlocks_CorePostContent_Fragment = { __typename: 'CorePostContent', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostContent_Fragment = { __typename?: 'CorePostContent' };
 
-type WpBlocks_CorePostDate_Fragment = { __typename: 'CorePostDate', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostDate_Fragment = { __typename?: 'CorePostDate' };
 
-type WpBlocks_CorePostExcerpt_Fragment = { __typename: 'CorePostExcerpt', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostExcerpt_Fragment = { __typename?: 'CorePostExcerpt' };
 
-type WpBlocks_CorePostFeaturedImage_Fragment = { __typename: 'CorePostFeaturedImage', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostFeaturedImage_Fragment = { __typename?: 'CorePostFeaturedImage' };
 
-type WpBlocks_CorePostNavigationLink_Fragment = { __typename: 'CorePostNavigationLink', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostNavigationLink_Fragment = { __typename?: 'CorePostNavigationLink' };
 
-type WpBlocks_CorePostTemplate_Fragment = { __typename: 'CorePostTemplate', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostTemplate_Fragment = { __typename?: 'CorePostTemplate' };
 
-type WpBlocks_CorePostTerms_Fragment = { __typename: 'CorePostTerms', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostTerms_Fragment = { __typename?: 'CorePostTerms' };
 
-type WpBlocks_CorePostTitle_Fragment = { __typename: 'CorePostTitle', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePostTitle_Fragment = { __typename?: 'CorePostTitle' };
 
-type WpBlocks_CorePreformatted_Fragment = { __typename: 'CorePreformatted', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePreformatted_Fragment = { __typename?: 'CorePreformatted' };
 
-type WpBlocks_CorePullquote_Fragment = { __typename: 'CorePullquote', name?: string | null, clientId?: string | null };
+type WpBlocks_CorePullquote_Fragment = { __typename?: 'CorePullquote' };
 
-type WpBlocks_CoreQuery_Fragment = { __typename: 'CoreQuery', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreQuery_Fragment = { __typename?: 'CoreQuery' };
 
-type WpBlocks_CoreQueryNoResults_Fragment = { __typename: 'CoreQueryNoResults', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreQueryNoResults_Fragment = { __typename?: 'CoreQueryNoResults' };
 
-type WpBlocks_CoreQueryPagination_Fragment = { __typename: 'CoreQueryPagination', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreQueryPagination_Fragment = { __typename?: 'CoreQueryPagination' };
 
-type WpBlocks_CoreQueryPaginationNext_Fragment = { __typename: 'CoreQueryPaginationNext', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreQueryPaginationNext_Fragment = { __typename?: 'CoreQueryPaginationNext' };
 
-type WpBlocks_CoreQueryPaginationNumbers_Fragment = { __typename: 'CoreQueryPaginationNumbers', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreQueryPaginationNumbers_Fragment = { __typename?: 'CoreQueryPaginationNumbers' };
 
-type WpBlocks_CoreQueryPaginationPrevious_Fragment = { __typename: 'CoreQueryPaginationPrevious', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreQueryPaginationPrevious_Fragment = { __typename?: 'CoreQueryPaginationPrevious' };
 
-type WpBlocks_CoreQueryTitle_Fragment = { __typename: 'CoreQueryTitle', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreQueryTitle_Fragment = { __typename?: 'CoreQueryTitle' };
 
-type WpBlocks_CoreQuote_Fragment = { __typename: 'CoreQuote', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreQuote_Fragment = { __typename: 'CoreQuote', clientId?: string | null, attributes?: { __typename?: 'CoreQuoteAttributes', citation?: string | null } | null };
 
-type WpBlocks_CoreReadMore_Fragment = { __typename: 'CoreReadMore', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreReadMore_Fragment = { __typename?: 'CoreReadMore' };
 
-type WpBlocks_CoreRss_Fragment = { __typename: 'CoreRss', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreRss_Fragment = { __typename?: 'CoreRss' };
 
-type WpBlocks_CoreSearch_Fragment = { __typename: 'CoreSearch', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreSearch_Fragment = { __typename?: 'CoreSearch' };
 
-type WpBlocks_CoreSeparator_Fragment = { __typename: 'CoreSeparator', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreSeparator_Fragment = { __typename?: 'CoreSeparator' };
 
-type WpBlocks_CoreShortcode_Fragment = { __typename: 'CoreShortcode', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreShortcode_Fragment = { __typename?: 'CoreShortcode' };
 
-type WpBlocks_CoreSiteLogo_Fragment = { __typename: 'CoreSiteLogo', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreSiteLogo_Fragment = { __typename?: 'CoreSiteLogo' };
 
-type WpBlocks_CoreSiteTagline_Fragment = { __typename: 'CoreSiteTagline', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreSiteTagline_Fragment = { __typename?: 'CoreSiteTagline' };
 
-type WpBlocks_CoreSiteTitle_Fragment = { __typename: 'CoreSiteTitle', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreSiteTitle_Fragment = { __typename?: 'CoreSiteTitle' };
 
-type WpBlocks_CoreSocialLink_Fragment = { __typename: 'CoreSocialLink', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreSocialLink_Fragment = { __typename?: 'CoreSocialLink' };
 
-type WpBlocks_CoreSocialLinks_Fragment = { __typename: 'CoreSocialLinks', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreSocialLinks_Fragment = { __typename?: 'CoreSocialLinks' };
 
-type WpBlocks_CoreSpacer_Fragment = { __typename: 'CoreSpacer', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreSpacer_Fragment = { __typename?: 'CoreSpacer' };
 
-type WpBlocks_CoreTable_Fragment = { __typename: 'CoreTable', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreTable_Fragment = { __typename?: 'CoreTable' };
 
-type WpBlocks_CoreTagCloud_Fragment = { __typename: 'CoreTagCloud', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreTagCloud_Fragment = { __typename?: 'CoreTagCloud' };
 
-type WpBlocks_CoreTemplatePart_Fragment = { __typename: 'CoreTemplatePart', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreTemplatePart_Fragment = { __typename?: 'CoreTemplatePart' };
 
-type WpBlocks_CoreTermDescription_Fragment = { __typename: 'CoreTermDescription', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreTermDescription_Fragment = { __typename?: 'CoreTermDescription' };
 
-type WpBlocks_CoreTextColumns_Fragment = { __typename: 'CoreTextColumns', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreTextColumns_Fragment = { __typename?: 'CoreTextColumns' };
 
-type WpBlocks_CoreVerse_Fragment = { __typename: 'CoreVerse', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreVerse_Fragment = { __typename?: 'CoreVerse' };
 
-type WpBlocks_CoreVideo_Fragment = { __typename: 'CoreVideo', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreVideo_Fragment = { __typename?: 'CoreVideo' };
 
-type WpBlocks_CoreWidgetGroup_Fragment = { __typename: 'CoreWidgetGroup', name?: string | null, clientId?: string | null };
+type WpBlocks_CoreWidgetGroup_Fragment = { __typename?: 'CoreWidgetGroup' };
 
-type WpBlocks_YoastFaqBlock_Fragment = { __typename: 'YoastFaqBlock', name?: string | null, clientId?: string | null };
+type WpBlocks_YoastFaqBlock_Fragment = { __typename?: 'YoastFaqBlock' };
 
-type WpBlocks_YoastHowToBlock_Fragment = { __typename: 'YoastHowToBlock', name?: string | null, clientId?: string | null };
+type WpBlocks_YoastHowToBlock_Fragment = { __typename?: 'YoastHowToBlock' };
 
-type WpBlocks_YoastSeoBreadcrumbs_Fragment = { __typename: 'YoastSeoBreadcrumbs', name?: string | null, clientId?: string | null };
+type WpBlocks_YoastSeoBreadcrumbs_Fragment = { __typename?: 'YoastSeoBreadcrumbs' };
 
 export type WpBlocksFragment = WpBlocks_CoreArchives_Fragment | WpBlocks_CoreAudio_Fragment | WpBlocks_CoreAvatar_Fragment | WpBlocks_CoreBlock_Fragment | WpBlocks_CoreButton_Fragment | WpBlocks_CoreButtons_Fragment | WpBlocks_CoreCalendar_Fragment | WpBlocks_CoreCategories_Fragment | WpBlocks_CoreCode_Fragment | WpBlocks_CoreColumn_Fragment | WpBlocks_CoreColumns_Fragment | WpBlocks_CoreCommentAuthorName_Fragment | WpBlocks_CoreCommentContent_Fragment | WpBlocks_CoreCommentDate_Fragment | WpBlocks_CoreCommentEditLink_Fragment | WpBlocks_CoreCommentReplyLink_Fragment | WpBlocks_CoreCommentTemplate_Fragment | WpBlocks_CoreComments_Fragment | WpBlocks_CoreCommentsPagination_Fragment | WpBlocks_CoreCommentsPaginationNext_Fragment | WpBlocks_CoreCommentsPaginationNumbers_Fragment | WpBlocks_CoreCommentsPaginationPrevious_Fragment | WpBlocks_CoreCommentsTitle_Fragment | WpBlocks_CoreCover_Fragment | WpBlocks_CoreDetails_Fragment | WpBlocks_CoreEmbed_Fragment | WpBlocks_CoreFile_Fragment | WpBlocks_CoreFootnotes_Fragment | WpBlocks_CoreFreeform_Fragment | WpBlocks_CoreGallery_Fragment | WpBlocks_CoreGroup_Fragment | WpBlocks_CoreHeading_Fragment | WpBlocks_CoreHomeLink_Fragment | WpBlocks_CoreHtml_Fragment | WpBlocks_CoreImage_Fragment | WpBlocks_CoreLatestComments_Fragment | WpBlocks_CoreLatestPosts_Fragment | WpBlocks_CoreLegacyWidget_Fragment | WpBlocks_CoreList_Fragment | WpBlocks_CoreListItem_Fragment | WpBlocks_CoreLoginout_Fragment | WpBlocks_CoreMediaText_Fragment | WpBlocks_CoreMissing_Fragment | WpBlocks_CoreMore_Fragment | WpBlocks_CoreNavigation_Fragment | WpBlocks_CoreNavigationLink_Fragment | WpBlocks_CoreNavigationSubmenu_Fragment | WpBlocks_CoreNextpage_Fragment | WpBlocks_CorePageList_Fragment | WpBlocks_CorePageListItem_Fragment | WpBlocks_CoreParagraph_Fragment | WpBlocks_CorePattern_Fragment | WpBlocks_CorePostAuthor_Fragment | WpBlocks_CorePostAuthorBiography_Fragment | WpBlocks_CorePostAuthorName_Fragment | WpBlocks_CorePostComments_Fragment | WpBlocks_CorePostCommentsForm_Fragment | WpBlocks_CorePostContent_Fragment | WpBlocks_CorePostDate_Fragment | WpBlocks_CorePostExcerpt_Fragment | WpBlocks_CorePostFeaturedImage_Fragment | WpBlocks_CorePostNavigationLink_Fragment | WpBlocks_CorePostTemplate_Fragment | WpBlocks_CorePostTerms_Fragment | WpBlocks_CorePostTitle_Fragment | WpBlocks_CorePreformatted_Fragment | WpBlocks_CorePullquote_Fragment | WpBlocks_CoreQuery_Fragment | WpBlocks_CoreQueryNoResults_Fragment | WpBlocks_CoreQueryPagination_Fragment | WpBlocks_CoreQueryPaginationNext_Fragment | WpBlocks_CoreQueryPaginationNumbers_Fragment | WpBlocks_CoreQueryPaginationPrevious_Fragment | WpBlocks_CoreQueryTitle_Fragment | WpBlocks_CoreQuote_Fragment | WpBlocks_CoreReadMore_Fragment | WpBlocks_CoreRss_Fragment | WpBlocks_CoreSearch_Fragment | WpBlocks_CoreSeparator_Fragment | WpBlocks_CoreShortcode_Fragment | WpBlocks_CoreSiteLogo_Fragment | WpBlocks_CoreSiteTagline_Fragment | WpBlocks_CoreSiteTitle_Fragment | WpBlocks_CoreSocialLink_Fragment | WpBlocks_CoreSocialLinks_Fragment | WpBlocks_CoreSpacer_Fragment | WpBlocks_CoreTable_Fragment | WpBlocks_CoreTagCloud_Fragment | WpBlocks_CoreTemplatePart_Fragment | WpBlocks_CoreTermDescription_Fragment | WpBlocks_CoreTextColumns_Fragment | WpBlocks_CoreVerse_Fragment | WpBlocks_CoreVideo_Fragment | WpBlocks_CoreWidgetGroup_Fragment | WpBlocks_YoastFaqBlock_Fragment | WpBlocks_YoastHowToBlock_Fragment | WpBlocks_YoastSeoBreadcrumbs_Fragment;
 
@@ -24800,15 +24800,16 @@ export const SeoMetadataFragmentDoc = gql`
     `;
 export const WpBlocksFragmentDoc = gql`
     fragment WPBlocks on EditorBlock {
-  __typename
-  name
-  clientId
   ... on CoreParagraph {
+    clientId
+    __typename
     attributes {
       content
     }
   }
   ... on CoreHeading {
+    clientId
+    __typename
     attributes {
       level
       content
@@ -24816,11 +24817,14 @@ export const WpBlocksFragmentDoc = gql`
   }
   ... on CoreList {
     clientId
+    __typename
     attributes {
       ordered
     }
     innerBlocks {
       ... on CoreListItem {
+        __typename
+        clientId
         attributes {
           content
         }
@@ -24828,11 +24832,27 @@ export const WpBlocksFragmentDoc = gql`
     }
   }
   ... on CoreImage {
+    clientId
+    __typename
     mediaDetails {
       file
       meta {
         caption
       }
+    }
+  }
+  ... on CoreQuote {
+    clientId
+    __typename
+    attributes {
+      citation
+    }
+  }
+  ... on CoreCode {
+    clientId
+    __typename
+    attributes {
+      content
     }
   }
 }

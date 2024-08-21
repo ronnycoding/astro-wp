@@ -1,13 +1,14 @@
 fragment WPBlocks on EditorBlock {
-  __typename
-  name
-  clientId
   ... on CoreParagraph {
+    clientId
+    __typename
     attributes {
       content
     }
   }
   ... on CoreHeading {
+    clientId
+    __typename
     attributes {
       level
       content
@@ -15,11 +16,14 @@ fragment WPBlocks on EditorBlock {
   }
   ... on CoreList {
     clientId
+    __typename
     attributes {
       ordered
     }
     innerBlocks {
       ... on CoreListItem {
+        __typename
+        clientId
         attributes {
           content
         }
@@ -27,11 +31,27 @@ fragment WPBlocks on EditorBlock {
     }
   }
   ... on CoreImage {
+    clientId
+    __typename
     mediaDetails {
       file
       meta {
         caption
       }
+    }
+  }
+  ... on CoreQuote {
+    clientId
+    __typename
+    attributes {
+      citation
+    }
+  }
+  ... on CoreCode {
+    clientId
+    __typename
+    attributes {
+      content
     }
   }
 }
